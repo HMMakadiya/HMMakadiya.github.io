@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version v2.2.0-9e9833e-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT6710S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="audio" segmentAlignment="true">
+      <Representation id="0" bandwidth="70215" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" initialization="h265_segments/h265_audio_128000_1_64_init.mp4" media="h265_segments/h265_audio_128000_1_64_3281e816bbf52212076322e59ca36014.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="288000" r="1117"/>
+            <S t="321984000" d="98816"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" maxWidth="1680" maxHeight="720" frameRate="90000/3600" segmentAlignment="true" par="7:3">
+      <Representation id="1" bandwidth="165080" codecs="hev1.1.6.L60.90" mimeType="video/mp4" sar="1:1" width="336" height="144">
+        <SegmentTemplate timescale="90000" initialization="h265_segments/h265_144_main_60k.mp4" media="h265_segments/h265_144_main_60k_3281e816bbf52212076322e59ca36014.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="540000" r="1117"/>
+            <S t="603720000" d="180000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="2" bandwidth="367832" codecs="hev1.1.6.L63.90" mimeType="video/mp4" sar="1:1" width="560" height="240">
+        <SegmentTemplate timescale="90000" initialization="h265_segments/h265_240_main_235k.mp4" media="h265_segments/h265_240_main_235k_3281e816bbf52212076322e59ca36014.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="540000" r="1117"/>
+            <S t="603720000" d="180000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="4" bandwidth="1505950" codecs="hev1.1.6.L90.90" mimeType="video/mp4" sar="1:1" width="1120" height="480">
+        <SegmentTemplate timescale="90000" initialization="h265_segments/h265_480_main_1750k.mp4" media="h265_segments/h265_480_main_1750k_3281e816bbf52212076322e59ca36014.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="540000" r="1117"/>
+            <S t="603720000" d="180000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="5" bandwidth="496162" codecs="hev1.1.6.L63.90" mimeType="video/mp4" sar="1:1" width="672" height="288">
+        <SegmentTemplate timescale="90000" initialization="h265_segments/h265_288_main_375k.mp4" media="h265_segments/h265_288_main_375k_3281e816bbf52212076322e59ca36014.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="540000" r="1117"/>
+            <S t="603720000" d="180000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="6" bandwidth="1156736" codecs="hev1.1.6.L90.90" mimeType="video/mp4" sar="1:1" width="840" height="360">
+        <SegmentTemplate timescale="90000" initialization="h265_segments/h265_360_main_750k.mp4" media="h265_segments/h265_360_main_750k_3281e816bbf52212076322e59ca36014.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="540000" r="1117"/>
+            <S t="603720000" d="180000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="7" bandwidth="618044" codecs="hev1.1.6.L63.90" mimeType="video/mp4" sar="1:1" width="728" height="312">
+        <SegmentTemplate timescale="90000" initialization="h265_segments/h265_312_main_500k.mp4" media="h265_segments/h265_312_main_500k_3281e816bbf52212076322e59ca36014.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="540000" r="1117"/>
+            <S t="603720000" d="180000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="8" bandwidth="3904571" codecs="hev1.1.6.L120.90" mimeType="video/mp4" sar="1:1" width="1680" height="720">
+        <SegmentTemplate timescale="90000" initialization="h265_segments/h265_720_main_3000k.mp4" media="h265_segments/h265_720_main_3000k_3281e816bbf52212076322e59ca36014.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="540000" r="1117"/>
+            <S t="603720000" d="180000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" contentType="audio" lang="en" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="3" bandwidth="66910" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" initialization="h265_segments/h265_audio_128000_0_64_init.mp4" media="h265_segments/h265_audio_128000_0_64_3281e816bbf52212076322e59ca36014.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="288000" r="1117"/>
+            <S t="321984000" d="98816"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
